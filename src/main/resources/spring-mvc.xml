@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 配置/login.do的控制器 -->
+    <bean name="/login.do" class="com.yingcai.LoginController"></bean>
+    <bean name="/login1.do" class="com.yingcai.LoginOneController"></bean>
+
+</beans>
